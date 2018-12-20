@@ -1,0 +1,89 @@
+textarea{
+  width: 100%;
+}
+
+.active{
+  font-weight: bold;
+  color: #0066ff !important;
+}
+
+.profile-button:hover{
+  color: blue;
+}
+
+.logout-button:hover{
+  color: red !important;
+}
+
+.profile-pic{
+  width: 150px;
+  height: 150px;
+  border: 5px white solid;
+  outline: solid grey 1px;
+}
+
+.item-pic{
+  width: 150px;
+  height: 120px;
+}
+
+.file-pic{
+  width: 90px;
+  height: 100px;
+}
+
+.detail-profile-pic{
+  width: 250px;
+  height:250px;
+  border: 5px white solid;
+  outline: solid grey 1px;
+}
+
+.detail-barang-pic{
+  width: 250px;
+  height:250px;
+  border-radius: 2%;
+}
+
+.action-button button{
+  cursor: pointer;
+}
+
+.action-button button:hover{
+  border-left: 2px #1e9ff2 solid;
+}
+
+.status_barang_tersedia{
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: green;
+}
+
+.status_barang_habis{
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: red;
+}
+
+.status_diterima{
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: green;
+}
+
+.status_ditolak{
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: red;
+}
+
+.status_process{
+  color: orange;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}

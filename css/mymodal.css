@@ -1,0 +1,121 @@
+/* CSS MODAL BY REYZA */
+
+/* MODAL CREATE */
+
+.modal-create-header{
+background: linear-gradient(45deg, rgba(48,191,38,1) 0%,rgba(0,224,168,1) 100%);
+}
+
+.modal-create-header h4{
+font-weight: bold !important;
+}
+
+.modal-create-footer{
+background: linear-gradient(45deg, rgba(48,191,38,1) 0%,rgba(0,224,168,1) 100%);
+}
+
+.modal-create-footer button{
+font-weight: bold;
+}
+
+/* MODAL DETAIL */
+
+.modal-detail-content{
+background: linear-gradient(45deg, rgba(44,159,221,1) 0%,rgba(86,0,191,1) 100%);
+}
+
+.modal-detail h4{
+  font-weight: bold;
+}
+
+.modal-detail-title{
+  font-weight: bold;
+}
+
+.modal-detail-icon{
+  font-size: 70px;
+  animation: zoom 2s infinite;
+}
+
+@keyframes zoom {
+  0% { transform:  scale(1.0 , 1.0); }
+  50% { transform:  scale(1.2 , 1.2); }
+  60% { transform:  scale(1.0 , 1.0); }
+  100% { transform:  scale(1.2 , 1.2); }
+}
+
+.modal-detail-data{
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.modal-detail-footer{
+
+}
+
+.modal-detail-footer button{
+  background-color: white;
+}
+
+.modal-detail-footer button:hover{
+  transform: scale(1.2,1.2);
+  transition: 0.3s;
+}
+
+
+/* MODAL DELETE */
+
+.modal-delete-header, .modal-delete-footer{
+  border: none !important;
+}
+
+.modal-delete-body{
+  text-align: center ;
+  color:white;
+}
+
+.modal-delete-content{
+  background: linear-gradient(45deg, rgba(245,57,90,1) 0%,rgba(245,95,55,1) 100%);
+}
+
+.modal-delete h4{
+  font-weight: bold;
+}
+
+.modal-delete-title{
+  font-weight: bold;
+}
+
+.modal-delete-icon{
+  font-size: 70px;
+  animation: shake 0.4s infinite;
+}
+
+@keyframes shake {
+  0% { transform:  rotate(4deg); }
+  50% { transform:  rotate(4deg); }
+  60% { transform:  rotate(-4deg); }
+  100% { transform:  rotate(-4deg); }
+}
+
+.modal-delete-footer{
+  justify-content: center;
+}
+
+.modal-delete-footer button{
+  background-color: white;
+}
+
+.modal-delete-footer button:hover{
+  transform: scale(1.2,1.2);
+  transition: 0.3s;
+}
+
+.modal-detail-header, .modal-detail-footer{
+  border: none !important;
+}
+
+.modal-detail-body{
+  text-align: center ;
+  color:white;
+}

@@ -1,0 +1,7 @@
+
+-detail foto profil jika tidak ada foto profil maka akan memakai foto default
+-tanggal di detail memakai strftime('%d %B %Y', strtotime)
+
+-data user harus lengkap sebelum mengajukan permintaan
+
+-validasi dan notifikasi
